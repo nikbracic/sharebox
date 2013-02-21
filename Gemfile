@@ -28,6 +28,9 @@ gem 'devise'
 #layout
 gem "nifty-generators", :group => :development
 
+#dodajanje datotek
+gem "paperclip", "~> 2.3"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -42,3 +45,5 @@ gem "nifty-generators", :group => :development
 
 # To use debugger
 # gem 'debugger'
+
+gem "mocha", :group => :test
