@@ -6,7 +6,6 @@ Sharebox::Application.routes.draw do
 
   root :to => "home#index"
 
-  #prenašanje datotek
   match "assets/get/:id" => "assets#get", :as => "download"
 
   # The priority is based upon order of creation:

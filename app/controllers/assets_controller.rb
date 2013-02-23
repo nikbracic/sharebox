@@ -50,4 +50,5 @@ class AssetsController < ApplicationController
     end
   end
 
-  end
+
+end
