@@ -1,5 +1,5 @@
 class Asset < ActiveRecord::Base
-  attr_accessible :user_id, :uploaded_file
+  attr_accessible :user_id, :uploaded_file, :id
 
   belongs_to :user
 
@@ -13,6 +13,10 @@ class Asset < ActiveRecord::Base
 
   def file_name
     uploaded_file_file_name
+  end
+
+  def file_size
+    uploaded_file_file_size
   end
 
 end
