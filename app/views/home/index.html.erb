@@ -35,10 +35,10 @@
                 <%= link_to "Share" %>
               </div>
               <div class="rename">
-                <%= link_to "Rename" %>
+                <%= link_to "Rename", rename_folder_path(folder) %>
               </div>
               <div class="delete">
-                <%= link_to "Delete" %>
+                <%= link_to "Delete", folder, :confirm => 'Are you sure to delete the folder and all of its contents?', :method => :delete %>
               </div>
             </div>
           </div>
@@ -52,10 +52,10 @@
             <div class="file_last_updated"><%= asset.uploaded_file_updated_at %></div>
             <div class="actions">
               <div class="download">
-                <%= link_to "Download" %>
+                <%= link_to "Download", download_url(asset) %>
               </div>
               <div class="delete">
-                <%= link_to "Delete" %>
+                <%= link_to "Delete", asset, :confirm => 'Are you sure?', :method => :delete %>
               </div>
             </div>
           </div>
