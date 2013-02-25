@@ -7,7 +7,9 @@
       <change type="DELETED" beforePath="C:\Sites\sharebox\Rails_root\assets\3\Desert.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sharebox\public\system\uploaded_files\1\original\Chrysanthemum.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sharebox\public\system\uploaded_files\2\original\Penguins.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
     </list>
     <ignored path="sharebox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,23 +31,16 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-9.807693">
-              <folding>
-                <marker date="1361816127814" expanded="true" signature="150:564" placeholder="..." />
-                <marker date="1361816127814" expanded="true" signature="176:553" placeholder="..." />
-                <marker date="1361816127814" expanded="true" signature="646:815" placeholder="..." />
-                <marker date="1361816127814" expanded="true" signature="845:1615" placeholder="..." />
-                <marker date="1361816127814" expanded="true" signature="959:1163" placeholder="..." />
-                <marker date="1361816127814" expanded="true" signature="1288:1588" placeholder="..." />
-              </folding>
+            <state line="59" column="34" selection-start="2156" selection-end="2156" vertical-scroll-proportion="-14.230769">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="21" selection-start="923" selection-end="923" vertical-scroll-proportion="0.8250429">
+            <state line="134" column="15" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.5917667">
               <folding />
             </state>
           </provider>
@@ -72,14 +67,14 @@
         <option value="$PROJECT_DIR$/app/views/folders/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/folders_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/_breadcrumbs.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/folders/new.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/assets/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/assets/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -217,6 +212,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="3" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/folders/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="44" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
@@ -619,23 +647,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-9.807693">
-          <folding>
-            <marker date="1361816127814" expanded="true" signature="150:564" placeholder="..." />
-            <marker date="1361816127814" expanded="true" signature="176:553" placeholder="..." />
-            <marker date="1361816127814" expanded="true" signature="646:815" placeholder="..." />
-            <marker date="1361816127814" expanded="true" signature="845:1615" placeholder="..." />
-            <marker date="1361816127814" expanded="true" signature="959:1163" placeholder="..." />
-            <marker date="1361816127814" expanded="true" signature="1288:1588" placeholder="..." />
-          </folding>
+        <state line="21" column="103" selection-start="696" selection-end="696" vertical-scroll-proportion="0.5626072">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="923" selection-end="923" vertical-scroll-proportion="0.8250429">
+        <state line="59" column="34" selection-start="2156" selection-end="2156" vertical-scroll-proportion="-14.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="15" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.5917667">
           <folding />
         </state>
       </provider>
