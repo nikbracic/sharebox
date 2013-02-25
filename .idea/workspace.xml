@@ -7,12 +7,7 @@
       <change type="DELETED" beforePath="C:\Sites\sharebox\Rails_root\assets\3\Desert.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sharebox\public\system\uploaded_files\1\original\Chrysanthemum.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sharebox\public\system\uploaded_files\2\original\Penguins.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/assets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/assets/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/assets/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/assets/new.html.erb" afterPath="$PROJECT_DIR$/app/views/assets/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
     </list>
     <ignored path="sharebox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-0.06104129">
+            <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-9.807693">
+              <folding>
+                <marker date="1361816127814" expanded="true" signature="150:564" placeholder="..." />
+                <marker date="1361816127814" expanded="true" signature="176:553" placeholder="..." />
+                <marker date="1361816127814" expanded="true" signature="646:815" placeholder="..." />
+                <marker date="1361816127814" expanded="true" signature="845:1615" placeholder="..." />
+                <marker date="1361816127814" expanded="true" signature="959:1163" placeholder="..." />
+                <marker date="1361816127814" expanded="true" signature="1288:1588" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="21" selection-start="923" selection-end="923" vertical-scroll-proportion="0.8250429">
               <folding />
             </state>
           </provider>
@@ -58,7 +69,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20130225155357_add_folder_id_to_assets.rb" />
         <option value="$PROJECT_DIR$/app/models/asset.rb" />
         <option value="$PROJECT_DIR$/app/models/folder.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/folders/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/folders_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/_breadcrumbs.html.erb" />
@@ -69,6 +79,7 @@
         <option value="$PROJECT_DIR$/app/views/assets/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       </list>
     </option>
   </component>
@@ -538,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/folders/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
@@ -617,7 +621,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-0.06104129">
+        <state line="15" column="28" selection-start="565" selection-end="565" vertical-scroll-proportion="-9.807693">
+          <folding>
+            <marker date="1361816127814" expanded="true" signature="150:564" placeholder="..." />
+            <marker date="1361816127814" expanded="true" signature="176:553" placeholder="..." />
+            <marker date="1361816127814" expanded="true" signature="646:815" placeholder="..." />
+            <marker date="1361816127814" expanded="true" signature="845:1615" placeholder="..." />
+            <marker date="1361816127814" expanded="true" signature="959:1163" placeholder="..." />
+            <marker date="1361816127814" expanded="true" signature="1288:1588" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="923" selection-end="923" vertical-scroll-proportion="0.8250429">
           <folding />
         </state>
       </provider>
