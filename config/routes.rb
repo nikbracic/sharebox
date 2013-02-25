@@ -10,6 +10,11 @@ Sharebox::Application.routes.draw do
 
   match "assets/get/:id" => "assets#get", :as => "download"
 
+  match "browse/:folder_id" => "home#browse", :as => "browse"
+
+  #for creating folders inside another folder
+  match "browse/:folder_id/new_folder" => "folders#new", :as => "new_sub_folder"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
