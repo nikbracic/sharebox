@@ -62,12 +62,20 @@ class AssetsController < ApplicationController
 
   #omogočanje prenašanja datotek
   def get
+    #first find the asset within own assets
     asset = current_user.assets.find_by_id(params[:id])
+
+    #if not found in own assets, check if the current_user has share access to the parent folder of the File
+    asset ||= Asset.find(params[:id]) if current_user.has_share_access?(Asset.find_by_id(params[:id]).folder)
+
     if asset
-      send_file asset.uploaded_file.path, :type => asset.uploaded_file_content_type
+      #Parse the URL for special characters first before downloading
+      data = open(URI.parse(URI.encode(asset.uploaded_file.url)))
+      send_data data, :filename => asset.uploaded_file_file_name
+      #redirect_to asset.uploaded_file.url
     else
       flash[:error] = "Don't be cheeky! Mind your own assets!"
-      redirect_to assets_path
+      redirect_to root_url
     end
   end
 
