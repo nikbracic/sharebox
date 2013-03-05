@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
   end
 
 
-  #to check if a user has access to this specific folder
+  #to check if a user has acess to this specific folder
   def has_share_access?(folder)
     #has share access if the folder is one of one of his own
     return true if self.folders.include?(folder)
