@@ -79,8 +79,7 @@ class AssetsController < ApplicationController
       #redirect_to asset.uploaded_file.url
     else
       flash[:error] = "Don't be cheeky! Mind your own assets!"
-      redirect_to assets_path
-      #redirect_to root_url
+      redirect_to root_url
     end
   end
 
