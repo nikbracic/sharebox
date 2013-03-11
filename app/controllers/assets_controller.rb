@@ -69,12 +69,17 @@ class AssetsController < ApplicationController
     asset ||= Asset.find(params[:id]) if current_user.has_share_access?(Asset.find_by_id(params[:id]).folder)
 
     if asset
+      send_file asset.uploaded_file.path, :type => asset.uploaded_file_content_type
+      #require 'open-uri'
       #Parse the URL for special characters first before downloading
-      data = open(URI.parse(URI.encode(asset.uploaded_file.url)))
-      send_data data, :filename => asset.uploaded_file_file_name
+      #test = "http://localhost:3000/#{asset.uploaded_file.url}"
+      #test = "#{asset.uploaded_file.url}"
+      #data = open(URI.parse(URI.encode(test)))
+      #send_data data, :filename => asset.uploaded_file_file_name
       #redirect_to asset.uploaded_file.url
     else
       flash[:error] = "Don't be cheeky! Mind your own assets!"
+      redirect_to assets_path
       #redirect_to root_url
     end
   end
