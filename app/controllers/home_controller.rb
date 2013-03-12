@@ -63,7 +63,7 @@ class HomeController < ApplicationController
       @shared_folder.save
 
       #now we need to send email to the Shared User
-      UserMailer.invitation_to_share(@shared_folder).deliver
+      #UserMailer.invitation_to_share(@shared_folder).deliver
 
     end
 

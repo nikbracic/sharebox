@@ -45,7 +45,7 @@ class FoldersController < ApplicationController
   def update
     @folder = current_user.folders.find(params[:id])
     if @folder.update_attributes(params[:folder])
-      redirect_to @folder, :notice  => "Successfully updated folder."
+      redirect_to root_url, :notice  => "Successfully updated folder."
     else
       render :action => 'edit'
     end
